@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <title> نظام ALOGIX</title>
+</head>
+<body>
+
+
+  <h1 class="h177">نظام ALOGIX</h1>
+
+  <div class="b77">
+    <button class="button1" onclick="window.location.href='https://alogix.github.io/AL/'">الموقع الاساسي</button>
+    <button class="button1" onclick="window.location.href='https://alogix.github.io/AL/tt.html'">تسجيل بيج</button>
+    <button class="button1" onclick="window.location.href='https://alogix.github.io/ALOGIX-Employee-registration/'">تسجيل موظف</button>
+    <button class="button1" onclick="window.location.href='https://alogix.github.io/Store-management/'">نظام البيجات</button>
+    <button class="button1" onclick="window.location.href=' https://alogix.github.io/Employee-data/'">نظام الموظفين</button>
+    <button class="button1" onclick="window.location.href='https://www.facebook.com/profile.php?id=61573721117909&sk=about&locale=ar_AR'">تثبيت الطلبات</button>
+  </div>
+
+  <footer class="footer">
+    جميع الحقوق محفوظة © 2025
+  </footer>
+  <a href="https://wa.me/9647727220385?text=عندي%20استفسار%20حول%20التسجيل%20او%20الترويج" 
+   target="_blank" style="position:fixed;bottom:20px;right:20px;z-index:999;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+       width="60" alt="WhatsApp">
+</a>
+
+  <script>
+    let clickCount = 0;
+    let clickTimer;
+
+    document.getElementById("logo").addEventListener("click", () => {
+      clickCount++;
+
+      if (clickCount === 3) {
+        clickCount = 0;
+        // ✅ غيّر هذا الرابط إلى الملف اللي تريده بالضبط:
+        window.location.href = "logo1.html";
+      }
+
+      clearTimeout(clickTimer);
+      clickTimer = setTimeout(() => {
+        clickCount = 0;
+      }, 1500);
+    });
+  </script>
+
+</body>
+</html>

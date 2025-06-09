@@ -1,0 +1,96 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f3f4f6;
+    line-height: 1.6;
+    background: #1F1F1F;
+}
+
+    
+
+
+.h177{
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 0px 1px 1px rgba(52, 40, 40, 0.5);
+    color: #81c386;
+    font-family: 'Cairo', sans-serif;
+    margin-top: 10%;
+}
+
+.button1 {
+    padding: 12px 24px;
+    background:  #032a41;
+    color: #81c386;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 50px;
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+        font-size: 18px;
+        font-weight: bold; 
+        text-align: center;
+        letter-spacing: 1px; 
+        font-family: 'Cairo', sans-serif;
+            
+}
+
+.button1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 100px 150px rgba(0, 0, 0, 0.3);
+}
+
+.button1:active {
+    background:#5d0303,;
+    transform: scale(0.98);
+    box-shadow: 0 1000px 5000px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.button1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 60px 100px rgba(0, 0, 0, 0.2);
+}
+
+.b77{
+    align-items: center;
+}
+
+.pq77{
+    margin-top: 6%;
+    margin-bottom: 7%;
+    text-align: center;
+    font-size: 20px;
+    font-size: 18px;
+    font-weight: bold; 
+    text-align: center;
+    letter-spacing: 1px; 
+    color: rgb(0, 0, 0);   
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+    
+}
+.footer {
+  background-color: #111; /* أسود غامق */
+  color: #ccc;            /* لون الخط */
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  font-family: 'Cairo', sans-serif;
+  position: relative;
+  width: 100%;
+  margin-top: 30px;
+  border-top: 1px solid #333;
+}
+
+
